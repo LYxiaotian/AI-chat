@@ -3,8 +3,6 @@ import { Box, TextField, Button, List, ListItem, ListItemText, Paper } from '@mu
 interface ChatBoxProps {
   apiKey: string;
 }
-git remote add origin https://github.com/LYxiaotian/your-repo-name.git
-
 interface Message {
   role: 'user' | 'assistant';
   content: string;
